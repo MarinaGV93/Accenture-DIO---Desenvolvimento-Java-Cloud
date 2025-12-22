@@ -1,0 +1,33 @@
+Em 1966, teve o primeiro chatbot "Eliza", que 'adivinhava' a sua próxima palavra, pegando as palavras chaves que o usuário já escrevia.
+
+A IA guarda os parâmetros de reconhecimento, em forma de tokens (que são combinações que a IA vai tentando fazer para entender a probabilidade do que é a entrada (visual ou texto)), de algo que está ensinando, como a imagem de uma maçã em pé. Ao mostrar uma imagem de uma maçã deitada, 50% dos parâmetros são iguais, mas você da um 'reforço positivo' (empurrão na IA (like ou dislike)) e diz que isso é uma maçã e ela coloca mais tokens.
+
+Quanto mais modelo de entrada e mais tokens que você vai criando, vai ter uma sa´da mais provável. O número de parâmetros define a qualidade do resultado.
+
+    - Grande Modelo de Linguagem (Large Language Model/LLM)
+
+        - Milhares de tokens (vocabulário).
+
+    - Pequeno Modelo de Linguagem (Small Language Model/SLM)
+
+        - Vocabulário menor.
+
+Deep Learning (Aprendizado Profundo)
+
+    - É como 'montar' coisas na cabeça vendo algo, como uma revista, fazendo 'conexões neurais'.
+
+    Inferência:
+
+        - É um processo de raciocínio no qual se chega a um conhecimento desconhecido, a partir de premissas ou observações que são consideradas verdadeiras.
+
+    Multimodal:
+
+        - Trabalha com textos, imagens, entre outras.
+
+    - Permite que as máquinas permitem coisas e associam outras coisas.
+
+    - Maneira de simular conhecimentos conectados.
+
+A era das IAs Generativas
+
+    - Capacidade de gerar coisas novas, como áudios, músicas, imagens, vídeos.
