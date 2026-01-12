@@ -53,6 +53,26 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 
 <br>
 
+## 📚 Aulas
+
+<!-- Tabela -->
+
+<div id="table" align="center">
+
+| Aulas | 
+| :----: | 
+| [Inteligêcia Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Inteligência%20Artificial) |
+| [Engenharia de Prompts](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Engenharia%20de%20Prompts) |
+<!-- 
+| []() |
+| []() |
+-->
+
+</div>
+</div>
+
+<br>
+
 ## 📃 Licença
 
 <p>
