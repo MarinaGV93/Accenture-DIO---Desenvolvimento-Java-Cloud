@@ -1,0 +1,79 @@
+Quanto mais específico for, melhor o resultado
+
+- Habilidade de formular os comandos, de forma eficaz, garante a resposta que realmente precisa
+
+Como os Modelos de Linguagem "Entendem" um Prompt?
+
+    Calculam a probabilidade com base nos padrões aprendidos durante o treinamento.
+    São arquitetados principalmente na arquitetura Transformer, que usa mecânismos de atenção para processar palavras em sequência, considerando o contexto de cada palavra em relação à todas as outras do texto e nao de forma linear, como ocorrem em outros modelos. Busca conexões em diferentes partes do texto
+
+    Quando fornece um prompt ao modelo de linguagem, ele converte o texto em uma sequência de tokens (unidades básicas que podem ser palavras, partes de palavras ou caracteres) e essa sequência é processada pelas camadas de atenção e por outras transformações até gerar respostas (https://platform.openai.com/tokenizer). Após esse processo, os tokens são convertidos bedins (representações vetoriais que capturam o seu significado). Após,esses bedins passam por camadas de redes neurais com transformadores e o modelo aplica essas operações para poder entender o contexto. O modelo gera uma distribuição de probabilidades para tentar prever o próximo token, que é repetido até gerar a sequência.
+
+Como os Modelos de Linguagem "Lembram" do que foi Dito?
+
+    O modelo consegue manter o contexto do que foi dito por meio da janela de contexto, que é o limite de tokens que o modelo consegue processar simultaneamente.
+    Cada  modelo possue uma janela de contexto diferente.
+    Quando esse limite é atingido, os tokens mais antigos são descartados para dar lugar aos mais novos.
+    Tem alternativas, como no chat GPT, onde tem funcionalidades como memória e instruções personalizadas, que permitem que o modelo possa armazenar algumas informações entre os chats ou seguir diretrizes que estabeleceu. Pode várias de acordo com algumas funcionalidades a partir do chat bot.
+
+Elementos Essenciais de um Bom Prompt
+
+    - Instrução inicial: tarefa específica que quer que o modelo realize. Deve ser clara e evitar ambiguidades para que o modelo não tenha interpretações errada.
+
+        "Crie uma história inicial para uma campanha de RPG de fantasia, envolvendo um grupo de aventureiros presos em uma cidade amaldiçoada."
+
+    - Contexto Adequado: vai fornecer as informações que ajudam o modelo a entender melhor essa tarefa que tem que realizar e produzir uma resposta mais precisa e relevante.
+
+        "A cidade foi tomada por uma maldição que impede qualquer um de sair. Os moradores estão desaparecendo misteriosamente, e as sombras parecem ganhar vida. Os jogadores são aventureiros que chegaram à cidade pouco antes da maldição começar, em busca de tesouros escondidos."
+
+    - Exemplos: ajuda a orientar os modelos sobre o formato ou estilo que deseja que aquela resposta tenha. Pode usar para ilustrar como deseja que a tarefa seja realizada ou para fornecer alguma referência.
+
+        "Por exemplo, a história pode começar com os aventureiros sendo atacados por sombras vivas na entrada da cidade, forçando-os a buscar refúgio na taverna local. Lá, eles encontram um velho contador de histórias que fala sobre uma relíquia perdida que pode quebrar a maldição."
+
+    - Dados de entrada: informações ou problema específico que deseja que o modelo processe ou resolva, podendo ser uma pergunta, uma situação ou um texto em casos de prompts que esteja pedindo para fazer um resumo. Ajudam o modelo a personalizar a 'história' para um tema.
+
+        "Os aventureiros incluem: um ladino sarcástico, um clérigo com uma conexão misteriosa com as sombras, um bárbaro impulsivo e um mago que busca conhecimento proibido. O vilão principal é uma figura encapuzada que manipula a maldição das sombras."
+
+    - Formato de saída: especificar o formato que deseja que seja a resposta do modelo (comprimentos, detalhes ou formato).
+
+        "A história deve ter de 2 a 3 parágrafos, começando com uma introdução impactante, seguida pelo primeiro desafio e um gancho final que motive os jogadores a explorar a cidade."
+
+Engenharia de Prompts no Dia a Dia
+
+    Exemplo:
+
+    "Crie um plano detalhado de desenvolvimento pessoal para os próximos [período de tempo] considerando as seguintes características:
+
+     – Foco: [área de interesse ou hobby]
+     – Objetivos: [objetivos específicos]
+     – Limitações de tempo: [disponibilidade semanal ou diária]
+     – Recursos financeiros: [orçamento disponível]
+
+     Estruture o plano com:
+
+     1 - Metas específicas e mensuráveis.
+
+     2 - Recursos de aprendizado dentro do orçamento disponível.
+
+     3 - Cronograma semanal adaptado à disponibilidade.
+
+     4 - Métricas de acompanhamento para medir o progresso.
+
+     5 - Identificação de possíveis obstáculos e estratégias de superação."
+
+Cuidados na Aplicação de Prompts
+
+    - Prompts enviesados: instrução ou uma pergunta feita de forma de sugerir ou induzir a responta daquele modelo de linguagem:
+
+        "Por que o café é a melhor bebida dos últimos tempos?"
+
+        -> "Quais são as vantagens e desvantagens do café em comparação com outras bebidas?"
+
+    - Alucinações: podem ocorrer quando o modelo retorna uma informação errada ou inventada para tentar preencher uma lacuna de conhecimento:
+
+        "Sabendo que os peixes respiram fogo, como isso afeta a flora submarina?"
+
+    - Considerações éticas
+
+    - Privacidade e segurança: não compartilhar dados pessoais ou confidenciais.
+
