@@ -35,7 +35,22 @@ Componentes de um Prompt
         Orientam o modelo sobre a tarefa a ser realizada, especificando o que fazer, como "Resuma o texto abaixo em três frases objetivas"
         O mais utilizado
         Pode ser simples ou composto
-        
+
+    Exemplos (Few-shot (0 shot) Learning)
+
+        Apresentam pares de entrada e saída esperados, mostrando ao modelo o comportamento ou formato ideal para tarefa definida.
+        Técnicas para treinar ou adaptar os modelos de linguagem à tarefas especificas com pouco ou nenhuma informação adicional.
+
+            "Classifique o sentimento do texto a seguir: "Eu amo esse produto."
+            "Tarefa: Classificar o sentimento de um texto.
+
+            Modelo de Exemplo:
+            - "Eu não gostei do produto!". -> Negativo
+            - "Eu adorei o produto" -> Positivo
+            - "Foi uma experiência média" -> Neutro
+
+            Classifique o sentimento do seguinte texto: "Eu adoro essa praia!""
+
 
 
 
