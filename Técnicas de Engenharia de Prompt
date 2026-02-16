@@ -51,6 +51,134 @@ Componentes de um Prompt
 
             Classifique o sentimento do seguinte texto: "Eu adoro essa praia!""
 
+    Contexto ou Configuração
+
+        Define o papel do modelo e o cenário, como "Você é um assistente de IA que simplifica explicações técnicas para iniciantes em tecnologia"
+
+            "Imagine que você é um guia de turismo explicando uma cidade para visitantes. O contexto pode incluir o cenário de uma cidade histórica como o EEgito, destacando pontos turísticos e tradições culturais."
+
+    Restrições ou Limitações
+
+        Limitam a resposta em termos de extensão ou escopo, como "Responda em até 50 palavras, sem incluir opiniões ou dados fictícios"
+
+            "Explique o conceito de loops em programação em até 50 palavras"
+
+    Conteúdo principal
+
+        Texto central para processamento, como um parágrafo, tabela ou documento, que o modelo deve analisar, traduzir ou resumir.
+
+        Conjunto de instruções e a tarefa que precisa efetuar
+
+            "Como chegar ao museu? Traduzir para o francês"
+
+            Instrução:
+                "Liste três ideias criativas para um evento comunitário"
+            Conteúdo principal:
+                "O evento deve engajar pessoas de todas as idades e promover sustentabilidade."
+
+    Indicações
+
+        Guiam o modelo para gerar saídas específicas, usando estímulos como "Liste pontos principais:" ou "Responda como um parágrafo único"
+        Ser específico e claro sobre o formato  da resposta.
+        Geralmente se refere a sugestão, direção ou instruções que apontam para algo bem específico
+
+            "Resuma o email abaixo em formato de lista:
+             "..."
+             "
+
+    Formato de saída
+
+        Específica a forma da resposta, como "Apresente no formato JSON:" ou "Liste os resultados como uma sequência de tópicos claros"
+        Se refere ao estilo ou a estrutura na qual os dados (informações) são apresentados no final.
+
+            "Explique os benefícios de utilizar um framework de JavaScript, listando três vantagens"
+
+    Conteúdo de suporte
+
+        Dados extras que ajudam a tarefa, como datas ou preferências, por exemplo: "Use o contexto atual de dezembro de 2024 nas respostas"
+        Orientar a tarefa de forma mais eficiente.
+
+            "Categorias importantes: Entrada, prato principal e sobremesa. Liste sugestões para cada categoria"
+
+Técnicas de Engenharia de Prompt
+
+    Instruções claras
+
+        Técnica que organiza o prompt para que as orientações sejam objetivas, detalhadas e colocadas no início para maior clareza
+        Evitando ambiguidades e confusões
+
+            "Ajude a criar uma proposta de jogo narrativo chamado 'Adventure DIO Quest'. O jogo será uma aventura onde os jogadores tomam decisões que afetam o desenrolar da história. O jogo deve incluir:
+            - Uma introdução à história
+            - As principais mecânicas de jogo
+            - Uma descrição do público-alvo
+            ---
+
+            ...
+            "
+
+    Repetir instruções no final
+
+        Reforça as orientações no final do prompt para garantir que o modelo compreenda e siga a tarefa proposta sem desvios.
+
+            "...
+            Lembre-se, após a geração, revise a proposta de 'Adventure DIO Quest' para garantir que ela inclua todas as seções: história, mecânica e o público-alvo
+            ---
+
+            ...
+            "
+
+    Guardrails
+
+        Técnicas para limitar respostas, evitando conteúdos prejudiciais, irrelevantes ou incorretos, alinhando o modelo a padrões éticos
+
+            "...
+            Certifique-se de que a proposta seja prática e simples de implementar para um jogo básico. Evite mecânicas complexas ou irreais
+            "
+
+    Preparar a saída
+
+        Define palavras ou frases no final do prompt que ajudam a moldar o formato da resposta, tornando-a mais estruturada e clara.
+
+            "Organize a proposta no seguinte formato:
+            - Nome do jogo
+            - Introdução à história
+            - Mecânicas principais
+            - Público-alvo
+            -Estilo gráfico ou visual
+            - Conclusão"
+
+    Solicitação de cadeia de pensamento
+
+        Instrução para que o modelo responda passo a passo, explicando o raciocínio até chegar à conclusão final
+
+            "Explique por que as mecênicas escolhidas são interessantes para o público-alvo e como elas se alinham ao tema da aventura"
+
+    Especificar estrutura de saída
+
+        Indica o formato exato da resposta, como JSON ou listas, ajudando a obter resultados organizados e úteis.
+
+            "Crie a proposta do jogo eem formato de tópicos"
+
+    Dividir a tarefa
+
+        Quebra uma tarefa complexa em várias etapas menores, facilitando para o modelo responder de forma lógica e organizada
+
+            "Descreva a introdução da história 'Adventure DIO Quest'. Comece com o jogador acordando em um lugar misterioso"
+
+    Adicionar sintaxe clara
+
+        Organiza o prompt com formatações como listas, títulos ou tabelas, tornando as instruções mais visuais e compreensíveis
+
+            "Formate a proposta do jogo em uma tabela para uma apresentação visual rápida"
+
+    Aplicando prompts para gerar imagens com o Micrsoft Copilot
+
+        "Crie uma imagem de uma ilha misteriosa com árvores sombrias, estilo pixel art, cenário de jogo"
+
+
+
+
+
 
 
 
