@@ -1,0 +1,13 @@
+- Gerenciador de Build
+
+    É uma ferramenta que automatiza e organiza t odo o processo de build de um projeto Java (ou outros). Com ele, você define o que precisa ser feito e o gerenciador cuida da execução.
+
+    - Principais Gerenciadores
+
+        - Maven
+
+            É uma ferramenta tradicional e muito usada no mercado corporativo. Ele segue o princípio da “convenção sobre configuração”, ou seja, usa uma estrutura de pastas padrão e arquivos XML para definir como o projeto deve ser construído.
+
+        - Gradle
+
+            É uma ferramenta mais moderna e flexível. Ele usa scripts escritos em Groovy (ou Kotlin) no arquivo build.gradle. Por ser baseado em scripts e não em XML, o Gradle permite uma configuração mais personalizada e expressiva.
