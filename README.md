@@ -65,6 +65,8 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 | [Engenharia de Prompts](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Engenharia%20de%20Prompts) |
 | [Aplicações Práticas da Inteligência Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Aplicações%20Práticas%20da%20Inteligência%20Artificial) |
 | [Introdução ao Java e seu Ambiente de Desenvolvimento](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Introdução%20ao%20Java%20e%20seu%20Ambiente%20de%20Desenvolvimento) |
+| [Fundamentos da Linguagem de Programacao Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Fundamentos%20da%20Linguagem%20de%20Programacao%20Java) |
+| [Estruturas de Controle em Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Estruturas%20de%20Controle%20em%20Java) |
 <!-- 
 | []() |
 | []() |
