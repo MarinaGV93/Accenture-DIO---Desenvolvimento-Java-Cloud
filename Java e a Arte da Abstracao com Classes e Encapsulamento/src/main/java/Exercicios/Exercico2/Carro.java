@@ -98,7 +98,7 @@ public class Carro {
     }
 
     public int getVelocidade() {
-        return velocidade;
+        return this.velocidade;
     }
 
     public int getMarcha() {

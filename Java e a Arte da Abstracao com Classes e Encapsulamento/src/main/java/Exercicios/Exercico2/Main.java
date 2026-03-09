@@ -27,28 +27,23 @@ public class Main {
             opcao = scanner.nextInt();
 
             switch (opcao){
-                case 1: meuCarro.ligar();
-                case 2: meuCarro.desligar();
-                case 3: meuCarro.acelerar();
-                case 4: meuCarro.desacelerar();
-                case 5: meuCarro.virar("Esquerda");
-                case 6: meuCarro.virar("Direita");
-                case 7: marchaAtual(meuCarro);
-                case 8: trocarMarcha(meuCarro, scanner);
-                case 9: System.exit(0);
-                default: System.out.println("Opção inválida");
+                case 1 -> meuCarro.ligar();
+                case 2 -> meuCarro.desligar();
+                case 3 -> meuCarro.acelerar();
+                case 4 -> meuCarro.desacelerar();
+                case 5 -> meuCarro.virar("Esquerda");
+                case 6 -> meuCarro.virar("Direita");
+                case 7 -> System.out.println("Velocidade atual: " + meuCarro.getVelocidade() + " km/h");
+                case 8 -> trocarMarcha(meuCarro, scanner);
+                case 9 -> System.exit(0);
+                default -> System.out.println("Opção inválida");
             }
 
         }while (true);
     }
 
-    private static void marchaAtual(Carro meuCarro) {
-        System.out.println("Marcha atual: " + meuCarro.getMarcha() + "ª");
-        meuCarro.getMarcha();
-    }
-
     private static void trocarMarcha(Carro meuCarro, Scanner scanner) {
         System.out.println("Para qual marcha (0-6)?");
         meuCarro.trocarMarcha(scanner.nextInt());
-    }
+    };
 }

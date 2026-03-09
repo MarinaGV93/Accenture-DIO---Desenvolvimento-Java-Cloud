@@ -32,8 +32,8 @@ public class Main {
                 case 5 -> pagarBoleto();
                 case 6 -> chequeUsado();
                 case 0 -> System.exit(0);
+                break;
                 default -> System.out.println("Opção inválida");
-
             }
         }while (true);
     }
