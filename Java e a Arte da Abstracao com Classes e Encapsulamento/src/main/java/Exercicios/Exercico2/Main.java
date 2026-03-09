@@ -9,7 +9,7 @@ public class Main {
         Scanner scanner= new Scanner(System.in);
         Carro meuCarro = new Carro();
 
-        int opcao = 0;
+        int opcao = -1;
 
         do {
             System.out.println("-----------------------------------");
