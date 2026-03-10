@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java_e_a_Arte_da_Abstracao_com_Classes_e_Encapsulamento" />
         <module name="Fundamentos_da_Linguagem_de_Programacao_Java" />
+        <module name="Heranca_e_Polimorfismo_em_Java" />
         <module name="Estruturas_de_Controle_em_Java" />
       </profile>
     </annotationProcessing>
