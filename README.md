@@ -69,8 +69,9 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 | [Estruturas de Controle em Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Estruturas%20de%20Controle%20em%20Java) |
 | [Java e a Arte da Abstracao com Classes e Encapsulamento (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) |
 | [Herança e Polimorfismo em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) |
+| [Dominando Interfaces e Lambda em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) |
+
 <!-- 
-| []() |
 | []() |
 -->
 
