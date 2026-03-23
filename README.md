@@ -61,7 +61,7 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 
 | Aulas | Desafios | Projetos |
 | :----: | :----: | :----: |
-| [Inteligêcia Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Inteligência%20Artificial) | [Desafios POO](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Fundamentos%20da%20Linguagem%20de%20Programacao%20Java/src/main/java/Desafios) | | [Projeto POO](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Projetos) |
+| [Inteligêcia Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Inteligência%20Artificial) | [Desafios](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Desafios) | | [Projeto POO](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Projetos) |
 | [Engenharia de Prompts](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Engenharia%20de%20Prompts) | []() | | []() |
 | [Aplicações Práticas da Inteligência Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Aplicações%20Práticas%20da%20Inteligência%20Artificial) | []() | | []() |
 | [Introdução ao Java e seu Ambiente de Desenvolvimento](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Introdução%20ao%20Java%20e%20seu%20Ambiente%20de%20Desenvolvimento) | []() | | []() |
