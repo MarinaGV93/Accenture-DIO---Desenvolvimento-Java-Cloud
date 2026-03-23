@@ -61,15 +61,15 @@ Antes de começar, você precisa ter instalado em sua máquina um editor para tr
 
 | Aulas | Desafios | Projetos |
 | :----: | :----: | :----: |
-| [Inteligêcia Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Inteligência%20Artificial) | [Desafios](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Desafios) | | [Projeto POO](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Projetos) |
-| [Engenharia de Prompts](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Engenharia%20de%20Prompts) | []() | | []() |
-| [Aplicações Práticas da Inteligência Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Aplicações%20Práticas%20da%20Inteligência%20Artificial) | []() | | []() |
-| [Introdução ao Java e seu Ambiente de Desenvolvimento](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Introdução%20ao%20Java%20e%20seu%20Ambiente%20de%20Desenvolvimento) | []() | | []() |
-| [Fundamentos da Linguagem de Programacao Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Fundamentos%20da%20Linguagem%20de%20Programacao%20Java) | []() | | []() |
-| [Estruturas de Controle em Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Estruturas%20de%20Controle%20em%20Java) | []() | | []() |
-| [Java e a Arte da Abstracao com Classes e Encapsulamento (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | []() | | []() |
-| [Herança e Polimorfismo em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) | []() | | []() |
-| [Dominando Interfaces e Lambda em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) | []() | | []() |
+| [Inteligêcia Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Inteligência%20Artificial) | [Desafios](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Desafios) | [Projetos](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Projetos) |
+| [Engenharia de Prompts](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Engenharia%20de%20Prompts) | []() | []() |
+| [Aplicações Práticas da Inteligência Artificial](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Aplicações%20Práticas%20da%20Inteligência%20Artificial) | []() | []() |
+| [Introdução ao Java e seu Ambiente de Desenvolvimento](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/blob/main/Introdução%20ao%20Java%20e%20seu%20Ambiente%20de%20Desenvolvimento) | []() | []() |
+| [Fundamentos da Linguagem de Programacao Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Fundamentos%20da%20Linguagem%20de%20Programacao%20Java) | []() | []() |
+| [Estruturas de Controle em Java](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Estruturas%20de%20Controle%20em%20Java) | []() | []() |
+| [Java e a Arte da Abstracao com Classes e Encapsulamento (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Java%20e%20a%20Arte%20da%20Abstracao%20com%20Classes%20e%20Encapsulamento) | []() | []() |
+| [Herança e Polimorfismo em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Heranca%20e%20Polimorfismo%20em%20Java) | []() | []() |
+| [Dominando Interfaces e Lambda em Java (com exercícios)](https://github.com/MarinaGV93/Accenture-DIO---Desenvolvimento-Java-Cloud/tree/main/Dominando%20Interfaces%20e%20Lambda%20em%20Java) | []() | []() |
 
 <!-- 
 | []() |
